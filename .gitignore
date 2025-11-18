@@ -1,0 +1,54 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment files (don't commit real secrets)
+.env
+.env.* 
+.env.local
+
+# Temporary and logs
+tmp/
+tmp_*
+logs/
+*.log
+*.sqlite3
+data/
+
+# Temporary download dir used by the bot
+/tmp/telegram_music_bot
+telegram-music-bot/tmp/
+telegram-music-bot/data/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Editors / OS
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Docker / CI
+docker-compose.override.yml
+
+# Secrets / keys
+*.pem
+*.key
